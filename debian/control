@@ -1,0 +1,13 @@
+Source: gun2
+Version: 1.0-0
+Section: base
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Maintainer: livogagan
+
+Package: gun2
+Priority: optional
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: HelloWorld
+ Hello World
